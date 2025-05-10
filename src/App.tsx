@@ -1,14 +1,15 @@
 import { useEffect } from 'react';
 import './App.css'
-import Header from '../../softsell/src/components/Header'
-import { ThemeProvider } from '../../softsell/src/contexts/ThemeContent'
-import HeroSection from '../../softsell/src/components/HeroSection';
-import HowItWorks from '../../softsell/src/components/HowItWorks';
-import Testimonials from '../../softsell/src/components/Testimonials';
-import WhyChooseUs from '../../softsell/src/components/WhyChooseUs';
-import ContactForm from '../../softsell/src/components/ContactForm';
-import Footer from '../../softsell/src/components/Footer';
-import ChatWidget from '../../softsell/src/components/ChatWidget';
+import { ThemeProvider } from './contexts/ThemeContent';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import HowItWorks from './components/HowItWorks';
+import WhyChooseUs from './components/WhyChooseUs';
+import Testimonials from './components/Testimonials';
+import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
+import ChatWidget from './components/ChatWidget';
+
 
 function App() {
 
